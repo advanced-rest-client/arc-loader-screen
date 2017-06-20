@@ -18,7 +18,7 @@
     "serve": "node_modules/.bin/polymer serve",
     "lint": "node_modules/.bin/polymer lint arc-loader-screen.html --rules polymer-1",
     "test-sauce": "node_modules/.bin/polymer test --plugin sauce --job-name \"arc-loader-screen:local-test\"",
-    "test": "node_modules/.bin/polymer test",
+    "test": "node_modules/.bin/polymer test --plugin local",
     "deps": "npm install --quiet && bower install --quiet",
     "update-deps": "npm update --quiet && bower update --quiet"
   },
